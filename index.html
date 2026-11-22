@@ -1,0 +1,1191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#101b30" />
+    <meta
+      name="description"
+      content="I'm a developer who likes making things for the web. Here you'll find my projects, experiments, notes, and whatever I'm currently curious about."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Night Purr — Full-Stack Developer" />
+    <meta property="og:image" content="assets/images/og-image.png" />
+    <meta
+      property="og:description"
+      content="Things I've built, things I've learned, and things I probably spent too much time figuring out."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Night Purr — Full-Stack Developer" />
+    <meta
+      name="twitter:description"
+      content="Things I've built, things I've learned, and things I probably spent too much time figuring out."
+    />
+    <meta name="twitter:image" content="assets/images/og-image.png" />
+    <title>Night Purr — Full-Stack Developer</title>
+    <link rel="icon" type="image/png" href="assets/icons/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" id="top">
+      <a class="wordmark" href="#intro" aria-label="Back to introduction">
+        <span class="wordmark-mark" aria-hidden="true">✳</span>
+        <span>Night Purr<small>FULL-STACK DEVELOPER</small></span>
+      </a>
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="primary-nav"
+        aria-label="Open navigation"
+      >
+        <span></span><span></span>
+      </button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Work</a>
+        <a href="#experience">Journey</a>
+        <a class="nav-contact" href="#contact"
+          >Get in touch <span aria-hidden="true">↗</span></a
+        >
+      </nav>
+    </header>
+
+    <main id="main">
+      <section
+        class="hero section-dark"
+        id="intro"
+        aria-labelledby="hero-title"
+      >
+        <div class="hero-grain" aria-hidden="true"></div>
+        <div class="hero-inner page-shell">
+          <div class="hero-copy">
+            <p class="eyebrow eyebrow-light">
+              OH, YOU'VE FOUND MY LITTLE CORNER
+            </p>
+            <h1 id="hero-title">
+              Hi, I'm <br />
+              <span class="hero-period">Night Purr.</span
+              ><em>Glad you're here. Feel free to look around.</em>
+            </h1>
+            <p class="hero-intro">
+              I'm someone who enjoys building things, exploring ideas, and
+              figuring out how the world works beneath the surface. Curiosity
+              often leads me down unexpected paths, and I like seeing where
+              those paths take me.
+            </p>
+            <p class="hero-intro">
+              This little corner of the internet is where I collect things I've
+              made, ideas I've explored, and experiences worth sharing. Whether
+              you're here to check out my work, explore a potential
+              collaboration, or simply get to know me, you're welcome to look
+              around.
+            </p>
+            <p class="hero-intro">
+              There's more to me than just code. Take your time and explore.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-paper" href="#projects"
+                >Explore selected work <span aria-hidden="true">↘</span></a
+              >
+              <a class="text-link text-link-light" href="#contact"
+                >Start a conversation <span aria-hidden="true">↗</span></a
+              >
+            </div>
+            <div class="hero-footnote">
+              <span class="tiny-star" aria-hidden="true">✳</span
+              ><span>Come on in, take a look around</span>
+            </div>
+          </div>
+
+          <div
+            class="hero-art"
+            aria-label="Decorative celestial botanical engraving"
+            role="img"
+          >
+            <svg
+              class="engraving"
+              viewBox="0 0 620 690"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+            >
+              <defs>
+                <linearGradient
+                  id="moonwash"
+                  x1="160"
+                  y1="70"
+                  x2="470"
+                  y2="550"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#D3D6D5" stop-opacity=".23" />
+                  <stop offset="1" stop-color="#A6B1BE" stop-opacity=".015" />
+                </linearGradient>
+                <pattern
+                  id="engraveDots"
+                  width="8"
+                  height="8"
+                  patternUnits="userSpaceOnUse"
+                >
+                  <circle cx="1" cy="1" r=".7" fill="#B6A27A" opacity=".45" />
+                </pattern>
+              </defs>
+              <circle
+                cx="315"
+                cy="317"
+                r="217"
+                stroke="#B6A27A"
+                stroke-opacity=".5"
+                stroke-width=".8"
+              />
+              <circle
+                cx="315"
+                cy="317"
+                r="202"
+                stroke="#A6B1BE"
+                stroke-opacity=".28"
+                stroke-width=".7"
+                stroke-dasharray="1 7"
+              />
+              <circle
+                cx="315"
+                cy="317"
+                r="171"
+                fill="url(#moonwash)"
+                stroke="#A6B1BE"
+                stroke-opacity=".55"
+                stroke-width=".8"
+              />
+              <path
+                d="M374 159c-75 26-117 108-95 184 20 68 88 111 158 96-34 35-89 52-143 36-82-25-128-111-103-193 22-75 103-124 183-123Z"
+                fill="#A6B1BE"
+                fill-opacity=".08"
+                stroke="#D2D6D5"
+                stroke-opacity=".7"
+                stroke-width="1.2"
+              />
+              <path
+                d="M289 122c43 27 78 76 91 130M260 164c-15 77-2 151 45 211M216 271c31 35 74 58 126 65M231 361c54-5 97-26 129-63"
+                stroke="#A6B1BE"
+                stroke-opacity=".28"
+                stroke-width=".7"
+              />
+              <path
+                d="M306 539c-12-78-6-153 26-224 21-46 45-83 80-124M323 487c-40-45-75-69-120-83M337 421c48-22 81-53 109-94M348 359c-22-37-28-71-20-109"
+                stroke="#B6A27A"
+                stroke-width="1.05"
+                stroke-linecap="round"
+              />
+              <path
+                d="M245 403c-21-40-57-55-88-51 15 35 45 54 88 51ZM277 447c-34-25-69-27-95-12 25 27 57 33 95 12ZM365 430c8-44 35-70 66-78 0 38-22 67-66 78ZM386 369c-3-42 15-73 43-91 9 37-5 68-43 91ZM375 319c-25-35-27-70-9-99 25 29 29 62 9 99ZM292 293c-34-23-47-55-39-87 31 20 44 49 39 87ZM301 350c-42-11-67-37-71-70 37 8 61 30 71 70Z"
+                stroke="#C8B891"
+                stroke-opacity=".85"
+                stroke-width="1"
+                fill="url(#engraveDots)"
+              />
+              <path
+                d="M191 352c-27-15-47-42-49-70 29 10 49 32 49 70ZM432 273c14-26 40-46 68-48-12 29-34 47-68 48ZM412 479c25-9 53-5 72 11-27 14-52 12-72-11ZM232 486c-25 5-51-4-67-22 29-8 52 0 67 22Z"
+                stroke="#A6B1BE"
+                stroke-opacity=".75"
+                stroke-width=".9"
+              />
+              <path
+                d="M310 93v-29m0 508v-29M86 317H57m516 0h-29M151 158l-21-21m369 369-21-21M479 158l21-21M130 498l21-21"
+                stroke="#B6A27A"
+                stroke-opacity=".7"
+                stroke-width=".9"
+              />
+              <path
+                d="M315 48l3 9 9 3-9 3-3 9-3-9-9-3 9-3 3-9ZM508 255l2 6 6 2-6 2-2 6-2-6-6-2 6-2 2-6ZM128 267l2 6 6 2-6 2-2 6-2-6-6-2 6-2 2-6Z"
+                fill="#B6A27A"
+              />
+              <path
+                d="M481 399c32 15 54 46 59 81-35-10-57-37-59-81ZM159 447c-12 28-38 49-70 55 9-34 33-54 70-55Z"
+                stroke="#B6A27A"
+                stroke-width=".9"
+              />
+              <circle
+                cx="315"
+                cy="317"
+                r="238"
+                stroke="#B6A27A"
+                stroke-opacity=".18"
+                stroke-width=".7"
+                stroke-dasharray="2 12"
+              />
+              <path
+                d="M105 588c94-38 211-44 326-2"
+                stroke="#A6B1BE"
+                stroke-opacity=".22"
+                stroke-width=".7"
+              />
+            </svg>
+            <span class="art-coordinate">N 00° 00′ · E 00° 00′</span>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="about section-paper section-pad"
+        id="about"
+        aria-labelledby="about-title"
+      >
+        <div class="page-shell">
+          <div class="section-heading about-heading">
+            <p class="eyebrow">
+              <span class="section-number">BEHIND</span> THE SCENES
+            </p>
+            <h2 id="about-title">The Mind<br />Behind the <em>Code</em></h2>
+          </div>
+          <div class="about-layout">
+            <div class="about-aside">
+              <div class="margin-note">
+                <span class="note-star">✳</span>
+                <p>A NOTE FOR <br />THE CURIOUS</p>
+              </div>
+              <svg
+                class="sprig sprig-small"
+                viewBox="0 0 180 260"
+                fill="none"
+                aria-hidden="true"
+              >
+                <path
+                  d="M92 249C87 184 94 116 119 24M91 189C59 164 39 132 34 98c39 18 58 46 57 84ZM94 150c30-13 48-38 53-70-32 10-51 34-53 70ZM100 105C78 83 69 55 76 28c24 20 33 46 24 77ZM90 215c-22-6-42-22-53-44 28-2 47 12 53 44Z"
+                  stroke="currentColor"
+                  stroke-width="1.1"
+                />
+                <path stroke="currentColor" stroke-width=".8" />
+              </svg>
+              <p class="aside-caption">A practice in paying <br />attention.</p>
+            </div>
+            <div class="about-copy">
+              <p class="lead-paragraph">
+                I'm a Full-Stack Developer who loves turning ideas into
+                thoughtfully built applications.
+              </p>
+              <p>
+                From crafting intuitive frontend experiences to developing
+                reliable backend systems, designing databases, and handling
+                deployment, I enjoy bringing every piece together. Driven by
+                curiosity, I love untangling problems, exploring new approaches,
+                and refining my craft. Every project is an opportunity to learn
+                something new and turn a simple idea into something meaningful.
+              </p>
+              <p>
+                Code isn't my only curiosity. I enjoy exploring math, I also
+                love teaching and sharing what I learn, whether it's programming
+                or something completely different.
+              </p>
+              <div class="about-signoff">
+                <span
+                  >Curious? Explore my <a href="#projects">projects</a> or peek
+                  inside my <a href="#skills">toolkit</a></span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="projects section-midnight section-pad"
+        id="projects"
+        aria-labelledby="projects-title"
+      >
+        <div class="page-shell">
+          <div class="section-heading section-heading-light projects-heading">
+            <div>
+              <p class="eyebrow eyebrow-light">
+                <span class="section-number">SELECTED WORK</span> THE PROJECT
+                ARCHIVE
+              </p>
+              <h2 id="projects-title">
+                Things I've<br /><em>Actually Built.</em>
+              </h2>
+            </div>
+            <p class="section-deck">
+              Real projects, real challenges, real results. Explore what I
+              built, the technologies behind each project, the problems I
+              tackled, and the role I played in bringing every idea to life.
+            </p>
+          </div>
+
+          <article class="project-feature reveal">
+            <div
+              class="project-visual project-visual-primary"
+              aria-label="Post Stash project preview"
+            >
+              <img
+                class="post-stash-preview"
+                src="assets/images/post-stash-preview-image.png"
+                alt="Post Stash application preview"
+                width="1893"
+                height="961"
+              />
+            </div>
+            <div class="project-copy">
+              <div class="project-meta">
+                <span>FEATURED PROJECT</span><span>PERSONAL PROJECTS</span>
+              </div>
+              <h3>Post Stash</h3>
+              <p class="project-summary">
+                Post Stash is a personal vault for Instagram users who want a
+                better way to organize, categorize, and manage their saved
+                posts. It helps users overcome Instagram's limited organization
+                and filtering capabilities by providing a centralized place to
+                store and manage saved posts.
+              </p>
+              <dl class="project-details">
+                <div>
+                  <dt>PROBLEM IT SOLVES</dt>
+                  <dd>
+                    Instagram's Saved feature lacks flexible filtering and
+                    organization, making it difficult to manage large
+                    collections of saved posts and find unorganized content.
+                  </dd>
+                </div>
+                <div>
+                  <dt>MY ROLE</dt>
+                  <dd>Full-Stack Developer</dd>
+                </div>
+                <div>
+                  <dt>BUILT WITH</dt>
+                  <dd>
+                    TypeScript, NestJS, React, Tailwind CSS, Drizzle ORM,
+                    PostgreSQL
+                  </dd>
+                </div>
+              </dl>
+              <div class="project-links">
+                <span class="link-placeholder">
+                  <a
+                    class="source-code-link"
+                    href="https://github.com/nightpurrexe/poststash"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Source code</a
+                  >
+                </span>
+              </div>
+            </div>
+          </article>
+
+          <div class="project-secondary">
+            <article class="project-mini reveal">
+              <div class="mini-index">02 <span>— PROFESSIONAL WORK</span></div>
+              <div class="mini-art mini-art-vupos" aria-hidden="true">
+                <span></span><span></span><span></span><b>V</b>
+              </div>
+              <div class="mini-copy">
+                <h3>Vupos</h3>
+                <p>
+                  Developed a grocery store management application as a
+                  Full-stack Developer to digitize daily retail operations and
+                  replace error-prone manual workflows. Built the frontend using
+                  Vue.js 3, Composition API, TypeScript, and PrimeVue, with
+                  backend services powered by Django, Django Ninja, and
+                  PostgreSQL. Implemented a Point of Sale (POS) system with
+                  automated transaction calculations and receipt printing,
+                  inventory management with automatic stock deduction and
+                  low-stock indicators, and daily, monthly, yearly sales
+                  reporting. The application was successfully deployed in a real
+                  retail environment, streamlining sales transactions, improving
+                  inventory visibility, reducing manual work, and enabling more
+                  effective business monitoring.
+                </p>
+                <div class="mini-stack">
+                  Python, TypeScript, Django, Django Ninja, Vue.js 3 -
+                  Composition API, PrimeVue, PostgreSQL
+                </div>
+              </div>
+            </article>
+            <article class="project-mini reveal">
+              <div class="mini-index">03 <span>— PROFESSIONAL WORK</span></div>
+              <div class="mini-art mini-art-hims" aria-hidden="true">
+                <span></span><span></span><span></span><b>✚</b>
+              </div>
+              <div class="mini-copy">
+                <h3>Hospital Information Management System (HIMS)</h3>
+                <p>
+                  Developed a comprehensive Hospital Information Management
+                  System (HIMS) from the ground up as a Frontend Developer,
+                  designed to digitize and integrate clinical and administrative
+                  hospital operations. Built user interfaces across multiple
+                  hospital modules using Vue.js 2 and Vuetify, implemented
+                  centralized state management with Vuex, integrated frontend
+                  components with backend APIs, and developed reusable
+                  components to support complex workflows. The application was
+                  successfully deployed in a production environment,
+                  centralizing hospital operations, improving information
+                  accessibility, and streamlining interdepartmental
+                  coordination.
+                </p>
+                <div class="mini-stack">
+                  JavaScript, Node.js, Express.js, Vue.js 2 - Options API,
+                  Vuetify, MySQL
+                </div>
+              </div>
+            </article>
+            <article class="project-mini reveal">
+              <div class="mini-index">04 <span>— PROFESSIONAL WORK</span></div>
+              <div class="mini-art mini-art-neotary" aria-hidden="true">
+                <span></span><span></span><span></span><b>N</b>
+              </div>
+              <div class="mini-copy">
+                <h3>Neotary</h3>
+                <p>
+                  Joined the development team to modernize an existing
+                  integrated management application for Notary and Land Deed
+                  Official (PPAT) offices, supporting 18 types of notarial and
+                  land administration services. Developed the frontend
+                  application from the ground up using Vue.js 3, Composition
+                  API, TypeScript, and PrimeVue, while modernizing the existing
+                  Django backend by converting traditional views into API
+                  endpoints using Django Ninja. Built pages, forms, data tables,
+                  and interactive components, integrated the new frontend with
+                  existing backend functionality, and collaborated with other
+                  developers throughout the modernization process, including
+                  introducing Vue.js to the team. The application was
+                  successfully modernized and deployed to production, providing
+                  centralized case management, automated workflows, document
+                  tracking, task delegation, deadline monitoring, and staff
+                  performance evaluation.
+                </p>
+                <div class="mini-stack">
+                  Python, TypeScript, Django, Django Ninja, Vue.js 3 -
+                  Composition API, PrimeVue, PostgreSQL
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="experience section-paper section-pad"
+        id="experience"
+        aria-labelledby="experience-title"
+      >
+        <div class="page-shell">
+          <div class="section-heading experience-heading">
+            <p class="eyebrow">
+              <span class="section-number">MY JOURNEY</span> NOTES FROM THE
+              YEARS
+            </p>
+            <h2 id="experience-title">
+              The Chapters<br /><em>That Shaped Me.</em>
+            </h2>
+            <p class="section-deck">
+              No shortcuts, just curiosity and consistency. Every experience
+              adds a new perspective, every challenge brings a lesson, and every
+              step is part of becoming better at what I do.
+            </p>
+          </div>
+          <div class="timeline">
+            <article class="timeline-item reveal">
+              <div class="timeline-date">2026<span>Yogyakarta</span></div>
+              <div class="timeline-marker" aria-hidden="true"></div>
+              <div class="timeline-content">
+                <p class="timeline-type">FULL-TIME</p>
+                <h3>English Customer Service Specialist</h3>
+                <p class="timeline-org">Teleperformance</p>
+                <p>
+                  Provided customer support for an e-commerce platform, handling
+                  customer inquiries through live chat. Assisted users with
+                  platform services, promotions, and various account-related
+                  matters while addressing concerns regarding eligibility,
+                  transactions, and reward claims. Processed refunds and
+                  transaction adjustments, resolved customer issues, and
+                  identified recurring problems to provide feedback for service
+                  improvements.
+                </p>
+                <ul>
+                  <li>
+                    Handled customer inquiries through live chat, providing
+                    support exclusively in English.
+                  </li>
+                  <li>
+                    Assisted users with platform services, promotions, and
+                    various account-related matters.
+                  </li>
+                  <li>
+                    Addressed customer concerns regarding service policies,
+                    eligibility, and transaction-related issues.
+                  </li>
+                  <li>
+                    Processed refunds and transaction adjustments in accordance
+                    with applicable procedures.
+                  </li>
+                  <li>
+                    Identified recurring customer issues and provided feedback
+                    to support service improvements.
+                  </li>
+                </ul>
+                <div class="timeline-tools">
+                  Internal Customer Support Tools <i>·</i> Live Chat Management
+                  System <i>·</i> Customer & Transaction Management
+                  <i>·</i> E-Commerce Support Platform
+                </div>
+              </div>
+            </article>
+            <article class="timeline-item reveal">
+              <div class="timeline-date">2024<span>Sumenep</span></div>
+              <div class="timeline-marker" aria-hidden="true"></div>
+              <div class="timeline-content">
+                <p class="timeline-type">FULL-TIME</p>
+                <h3>Frontliner & IT Support</h3>
+                <p class="timeline-org">Apotek Putra Abadi</p>
+                <p>
+                  Handled frontliner and IT support responsibilities, assisting
+                  customers with medication and health product purchases while
+                  providing basic product information and referring inquiries to
+                  pharmacists when necessary. Managed cashier duties, daily
+                  sales records, product displays, and stock organization.
+                  Additionally, provided technical support for business
+                  applications, troubleshooting application-level issues,
+                  coordinating with external vendors, and assisting end users
+                  through training and documentation to improve issue resolution
+                  and reduce recurring support requests.
+                </p>
+                <ul>
+                  <li>
+                    Assisted customers with medication and health product
+                    purchases, providing basic product information and referring
+                    them to pharmacists when necessary.
+                  </li>
+                  <li>
+                    Handled cashier duties, processed transactions, and
+                    maintained daily sales records.
+                  </li>
+                  <li>
+                    Managed product displays, shelf organization, and stock
+                    monitoring.
+                  </li>
+                  <li>
+                    Coordinated with pharmacists and staff to prepare customer
+                    orders and ensure timely service.
+                  </li>
+                  <li>
+                    Provided technical support for business applications,
+                    troubleshooting configuration and application-level issues.
+                  </li>
+                  <li>
+                    Coordinated with external vendors to resolve complex
+                    incidents and escalated issues with relevant technical
+                    details.
+                  </li>
+                  <li>
+                    Conducted user training and prepared technical documentation
+                    to reduce recurring support requests and improve issue
+                    resolution.
+                  </li>
+                </ul>
+                <div class="timeline-tools">
+                  Retail Operations <i>·</i> Inventory Operations <i>·</i> IT
+                  Support <i>·</i> Technical Support
+                </div>
+              </div>
+            </article>
+            <article class="timeline-item reveal">
+              <div class="timeline-date">2023<span>Sumenep</span></div>
+              <div class="timeline-marker" aria-hidden="true"></div>
+              <div class="timeline-content">
+                <p class="timeline-type">FULL-TIME</p>
+                <h3>Full-Stack Developer</h3>
+                <p class="timeline-org">CV. Amerta Meta Data</p>
+                <p>
+                  Contributed to the development and modernization of full-stack
+                  applications across different business domains. Modernized an
+                  existing notary and Land Deed Official (PPAT) management
+                  system supporting 18 types of notarial and land administration
+                  services by transitioning its legacy architecture into a
+                  modern API-driven backend and frontend stack. Also developed a
+                  grocery store management application from the ground up,
+                  digitizing retail operations through integrated point-of-sale
+                  (POS), inventory management, and sales reporting features.
+                </p>
+                <ul>
+                  <li>
+                    Modernized an existing notary and Land Deed Official (PPAT)
+                    management application supporting 18 types of notarial and
+                    land administration services.
+                  </li>
+                  <li>
+                    Migrated legacy Django views and server-rendered templates
+                    to a modern API-driven architecture using Django Ninja and
+                    Vue.js.
+                  </li>
+                  <li>
+                    Developed a grocery store management application from the
+                    ground up to digitize daily retail operations and replace
+                    error-prone manual workflows.
+                  </li>
+                  <li>
+                    Implemented a Point of Sale (POS) system with automated
+                    transaction calculations and receipt printing.
+                  </li>
+                  <li>
+                    Developed inventory management features, including automatic
+                    stock deduction and low-stock indicators.
+                  </li>
+                  <li>
+                    Implemented daily, monthly, and yearly sales reporting to
+                    support business monitoring and decision-making.
+                  </li>
+                </ul>
+                <div class="timeline-tools">
+                  Python <i>·</i> TypeScript <i>·</i> Django <i>·</i> Django
+                  Ninja <i>·</i> Vue.js 3 <i>·</i> PrimeVue <i>·</i> PostgreSQL
+                </div>
+              </div>
+            </article>
+            <article class="timeline-item reveal">
+              <div class="timeline-date">2021<span>Sumenep</span></div>
+              <div class="timeline-marker" aria-hidden="true"></div>
+              <div class="timeline-content">
+                <p class="timeline-type">FULL-TIME</p>
+                <h3>Frontend Developer</h3>
+                <p class="timeline-org">CV. Alif Lam Mim</p>
+                <p>
+                  Developed the frontend of a comprehensive Hospital Information
+                  Management System (HIMS) from the ground up, designed to
+                  digitize and integrate clinical and administrative hospital
+                  operations. Built user interfaces across multiple hospital
+                  modules, implemented centralized state management, and
+                  integrated frontend components with backend APIs to support
+                  complex operational workflows. Developed reusable components
+                  and optimized interface responsiveness to ensure a consistent
+                  and efficient user experience across devices.
+                </p>
+                <ul>
+                  <li>
+                    Developed the frontend of a comprehensive Hospital
+                    Information Management System (HIMS) from the ground up,
+                    covering multiple clinical and administrative modules.
+                  </li>
+                  <li>
+                    Built interactive and responsive user interfaces using
+                    Vue.js 2 and Vuetify.
+                  </li>
+                  <li>
+                    Implemented centralized state management using Vuex to
+                    manage application-wide data and component interactions.
+                  </li>
+                  <li>
+                    Integrated frontend features and reusable components with
+                    backend APIs to support complex hospital workflows.
+                  </li>
+                  <li>
+                    Developed reusable UI components to maintain consistency,
+                    improve maintainability, and streamline development across
+                    modules.
+                  </li>
+                  <li>
+                    Optimized interface responsiveness and usability across
+                    different devices and screen sizes.
+                  </li>
+                  <li>
+                    Participated in database schema design discussions to align
+                    frontend requirements with application data structures.
+                  </li>
+                </ul>
+                <div class="timeline-tools">
+                  JavaScript <i>·</i> Node.js <i>·</i> Express.js
+                  <i>·</i> Vue.js 2 <i>·</i> Vuetify <i>·</i> MySQL
+                </div>
+              </div>
+            </article>
+            <article class="timeline-item reveal">
+              <div class="timeline-date">2020<span>Surabaya</span></div>
+              <div class="timeline-marker" aria-hidden="true"></div>
+              <div class="timeline-content">
+                <p class="timeline-type">INTERN</p>
+                <h3>Full-Stack Developer</h3>
+                <p class="timeline-org">Omegasoft</p>
+                <p>
+                  Contributed to the development of a client-based business
+                  application as part of a collaborative development team.
+                  Assisted senior developers with frontend and backend
+                  implementation using CodeIgniter and Bootstrap, contributing
+                  to feature development, bug fixes, and code reviews while
+                  gaining hands-on experience with collaborative software
+                  development practices and existing codebases.
+                </p>
+                <ul>
+                  <li>
+                    Assisted senior developers in frontend and backend
+                    development using CodeIgniter and Bootstrap.
+                  </li>
+                  <li>
+                    Contributed to feature implementation and enhancements based
+                    on project requirements.
+                  </li>
+                  <li>
+                    Identified and resolved bugs to improve application
+                    functionality and stability.
+                  </li>
+                  <li>
+                    Gained hands-on experience working with an existing codebase
+                    and collaborative development workflows.
+                  </li>
+                </ul>
+                <div class="timeline-tools">
+                  PHP <i>·</i> CodeIgniter <i>·</i> Bootstrap
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="skills section-blue section-pad"
+        id="skills"
+        aria-labelledby="skills-title"
+      >
+        <div class="page-shell">
+          <div class="skills-topline">
+            <p class="eyebrow eyebrow-light">
+              <span class="section-number">MY TOOLKIT</span> THE DEVELOPER'S
+              DESK
+            </p>
+            <span class="archive-stamp">SKILL INDEX<br />VOL. 001</span>
+          </div>
+          <div class="skills-intro">
+            <h2 id="skills-title">Tools of<br /><em>My Craft</em></h2>
+            <p>
+              An honest inventory of the tools I actually use. No made-up
+              percentages, questionable skill bars, or 137% Python stats 😹.
+              Just an honest inventory of the tools I use and what I can do with
+              them.
+            </p>
+          </div>
+          <div class="skills-ledger">
+            <div class="skill-row">
+              <div class="skill-category">
+                <span>01</span>
+                <h3>Programming Languages</h3>
+              </div>
+              <div class="skill-items">
+                JavaScript <i>·</i> TypeScript <i>·</i> Python <i>·</i> PHP
+                <i>·</i> SQL
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-category">
+                <span>02</span>
+                <h3>Frontend</h3>
+              </div>
+              <div class="skill-items">
+                Vue.js <i>·</i> PrimeVue <i>·</i> Vuetify <i>·</i> Tailwind CSS
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-category">
+                <span>03</span>
+                <h3>Backend</h3>
+              </div>
+              <div class="skill-items">
+                Node.js <i>·</i> Express.js <i>·</i> Django <i>·</i> Django
+                Ninja <i>·</i> CodeIgniter
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-category">
+                <span>04</span>
+                <h3>Data</h3>
+              </div>
+              <div class="skill-items">PostgreSQL <i>·</i> MySQL</div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-category">
+                <span>05</span>
+                <h3>Tools & Environment</h3>
+              </div>
+              <div class="skill-items">
+                Git <i>·</i> GitHub <i>·</i> Linux <i>·</i> Docker
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="philosophy section-paper section-pad"
+        id="philosophy"
+        aria-labelledby="philosophy-title"
+      >
+        <div class="page-shell philosophy-shell">
+          <p class="eyebrow">
+            <span class="section-number">THE MINDSET</span> HOW I APPROACH CODE
+          </p>
+          <div class="philosophy-main">
+            <h2 id="philosophy-title">My <em>Philosophy</em></h2>
+            <div class="philosophy-aside">
+              <span class="ornament-cross">✳</span>
+              <p>
+                Good software begins with understanding the problem. I value
+                simplicity, thoughtful engineering, and continuous learning over
+                unnecessary complexity and chasing trends.
+              </p>
+            </div>
+          </div>
+          <div class="principles">
+            <article class="principle">
+              <span class="principle-no">I.</span>
+              <div>
+                <h3>Code is Communication.</h3>
+                <p>
+                  Code is written for humans first and machines second. I value
+                  clarity, readability, and maintainability, believing that good
+                  code should be easy to understand, not just easy to execute.
+                </p>
+              </div>
+            </article>
+            <article class="principle">
+              <span class="principle-no">II.</span>
+              <div>
+                <h3>Quality Over Shortcuts.</h3>
+                <p>
+                  Good engineering is about making thoughtful decisions, not
+                  taking the fastest route. I believe in building reliable,
+                  maintainable solutions and paying attention to the details
+                  that make software dependable.
+                </p>
+              </div>
+            </article>
+            <article class="principle">
+              <span class="principle-no">III.</span>
+              <div>
+                <h3>Growth Through Curiosity.</h3>
+                <p>
+                  Technology is constantly evolving, and so should we. I believe
+                  in staying curious, learning from mistakes, questioning
+                  assumptions, and continuously improving both my skills and the
+                  way I approach problems.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="exploring section-paper-warm section-pad"
+        id="exploring"
+        aria-labelledby="exploring-title"
+      >
+        <div class="page-shell">
+          <div class="exploring-heading">
+            <div>
+              <p class="eyebrow">
+                <span class="section-number">CURRENT STUDIES</span> NOTES IN
+                PROGRESS
+              </p>
+              <h2 id="exploring-title">Always a<br /><em>Student.</em></h2>
+            </div>
+          </div>
+          <p class="exploring-deck">
+            An ongoing collection of things I'm learning, ideas I'm exploring,
+            and questions I'm curious to uncover. A reminder that there's always
+            something new to discover.
+          </p>
+          <div class="field-notes">
+            <article class="field-note reveal">
+              <div class="note-symbol note-symbol-moon" aria-hidden="true">
+                <span></span><b>N</b>
+              </div>
+              <h3>NestJS</h3>
+              <p>
+                I've enjoyed the flexibility of Express.js, but not everything
+                needs to be built from scratch. I'm drawn to NestJS for its
+                structure, thoughtful abstractions, and batteries-included
+                approach. I'd rather leverage well-established solutions than
+                spend time reinventing things that have already been solved.
+              </p>
+              <span class="note-status">STATUS — BUILDING</span>
+            </article>
+            <article class="field-note reveal">
+              <div class="note-symbol note-symbol-star" aria-hidden="true">
+                <span></span><span></span><span></span><b>•</b>
+              </div>
+              <h3>React</h3>
+              <p>
+                Exploring React's approach to reactivity from a Vue.js
+                developer's perspective, its ecosystem, and the reasons behind
+                its widespread adoption and strong community loyalty, even with
+                many alternative frameworks available.
+              </p>
+              <span class="note-status">STATUS — BUILDING</span>
+            </article>
+            <article class="field-note reveal">
+              <div class="note-symbol note-symbol-arc" aria-hidden="true">
+                <span></span><b>J</b><i>λ</i>
+              </div>
+              <h3>Java & Scala</h3>
+              <p>
+                Exploring the JVM ecosystem through Java and Scala, with an
+                interest in the balance between Object-Oriented Programming
+                (OOP) and Functional Programming (FP). I'm particularly
+                interested in how both languages approach software design, their
+                evolving ecosystems, and the tools that make building reliable
+                and maintainable software enjoyable.
+              </p>
+              <span class="note-status">STATUS — EXPERIMENTING</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="beyond section-paper section-pad"
+        id="beyond"
+        aria-labelledby="beyond-title"
+      >
+        <div class="page-shell">
+          <div class="beyond-heading">
+            <p class="eyebrow">
+              <span class="section-number">BEYOND THE SCREEN</span> PERSONAL
+              PURSUITS
+            </p>
+            <h2 id="beyond-title">When I'm <br /><em>Not Coding</em></h2>
+          </div>
+          <div class="beyond-layout">
+            <div
+              class="beyond-art"
+              aria-label="Decorative botanical line illustration"
+              role="img"
+            >
+              <svg viewBox="0 0 420 550" fill="none" aria-hidden="true">
+                <path
+                  d="M205 530C187 427 194 325 225 221c20-68 56-126 105-177M197 467c-70-36-109-91-117-166 72 29 112 82 117 166ZM195 385c-50-52-68-111-52-175 43 44 61 103 52 175ZM202 326c64-12 111-52 139-116-62 30-108 68-139 116ZM197 439c30 4 61-10 89-40-36-15-66-2-89 40ZM231 204c27-32 57-52 91-61 3 51-27 72-91 61ZM240 176c-34-32-48-75-40-127 43 30 57 73 40 127Z"
+                  stroke="currentColor"
+                  stroke-width="1.1"
+                />
+                <path
+                  d="M65 135c28-16 60-18 93-5-25 25-56 27-93 5ZM294 381c30-25 63-31 99-17-26 32-59 38-99 17Z"
+                  stroke="currentColor"
+                  stroke-width="1"
+                />
+              </svg>
+              <span class="beyond-art-caption"
+                >A STUDY OF SMALL THINGS<br />PLATE VIII · PERSONAL
+                COLLECTION</span
+              >
+            </div>
+            <div class="beyond-copy">
+              <p class="beyond-lead">
+                The things I make time for when I’m not making software.
+              </p>
+              <article class="interest-row">
+                <span>01</span>
+                <div>
+                  <h3>Travel</h3>
+                  <p>
+                    I enjoy discovering new places, experiencing different
+                    cultures, and seeing the world from perspectives beyond my
+                    own. Every journey offers something new to learn,
+                    appreciate, and remember.
+                  </p>
+                </div>
+              </article>
+              <article class="interest-row">
+                <span>02</span>
+                <div>
+                  <h3>Gaming</h3>
+                  <p>
+                    I enjoy experiencing stories, exploring imaginative worlds,
+                    and discovering different perspectives through games. Beyond
+                    entertainment, games offer unique ways to experience
+                    storytelling, creativity, and problem-solving.
+                  </p>
+                </div>
+              </article>
+              <article class="interest-row">
+                <span>03</span>
+                <div>
+                  <h3>Reading</h3>
+                  <p>
+                    I enjoy exploring ideas, concepts, and knowledge through
+                    documentation, articles, and written resources. There's
+                    always something new to discover, and I find satisfaction in
+                    understanding how things work.
+                  </p>
+                </div>
+              </article>
+              <p class="beyond-footnote">
+                Perhaps our interests intersect? I'd love to exchange a few
+                thoughts.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="contact section-dark section-pad"
+        id="contact"
+        aria-labelledby="contact-title"
+      >
+        <div class="contact-stars" aria-hidden="true">
+          ✳ <span>·</span> ✧ <span>·</span> ✳
+        </div>
+        <div class="page-shell contact-shell">
+          <p class="eyebrow eyebrow-light">
+            <span class="section-number">BEFORE YOU GO</span> LEAVE A NOTE
+          </p>
+          <div class="contact-main">
+            <div>
+              <p class="contact-overline">
+                HAVE A GOOD QUESTION, AN INTERESTING PROBLEM, OR JUST WANT TO
+                SAY HELLO?
+              </p>
+              <h2 id="contact-title">Let's Get <br />in <em>Touch.</em></h2>
+            </div>
+            <div class="contact-aside">
+              <p>
+                Whether you have an idea to share, a project in mind, or simply
+                feel like saying hello, my inbox is open. I'd be happy to hear
+                from you.
+              </p>
+              <span class="contact-aside-rule"></span>
+              <span class="contact-aside-note"
+                >EVERY CONVERSATION STARTS SOMEWHERE.</span
+              >
+            </div>
+          </div>
+          <div class="contact-details">
+            <div class="contact-email">
+              <span class="contact-label">EMAIL</span>
+              <p>
+                <a href="mailto:nightpurr.exe@gmail.com"
+                  >nightpurr.exe@gmail.com</a
+                >
+              </p>
+            </div>
+            <div class="contact-socials">
+              <span class="contact-label">ELSEWHERE ON THE INTERNET</span>
+              <div class="social-line">
+                <span>GITHUB</span
+                ><span
+                  ><a
+                    href="https://www.github.com/nightpurrexe"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >https://www.github.com/nightpurrexe</a
+                  ></span
+                >
+              </div>
+              <div class="social-line">
+                <span>LINKEDIN</span
+                ><span
+                  ><a
+                    href="https://www.linkedin.com/in/arphaxadz"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >https://www.linkedin.com/in/arphaxadz</a
+                  ></span
+                >
+              </div>
+            </div>
+          </div>
+          <a class="back-to-top" href="#intro"
+            >BACK TO THE BEGINNING <span aria-hidden="true">↑</span></a
+          >
+        </div>
+      </section>
+
+      <section
+        class="now-next section-paper-warm section-pad"
+        id="now-next"
+        aria-labelledby="now-next-title"
+      >
+        <div class="page-shell">
+          <div class="now-next-heading">
+            <p class="eyebrow">
+              <span class="section-number">STILL UNFOLDING</span> THE NEXT
+              CHAPTER
+            </p>
+            <h2 id="now-next-title">Now & <em>Next</em></h2>
+            <p class="now-next-intro">
+              A little record of where I am today, and where curiosity might
+              lead me next.
+            </p>
+          </div>
+          <div class="now-next-grid">
+            <article class="journal-column now-column">
+              <div class="journal-label">
+                <h3>Now</h3>
+                <i>CURRENTLY IN MOTION</i>
+              </div>
+              <div class="journal-entry">
+                <span>✦</span>
+                <p>Deepening my understanding of databases and SQL</p>
+              </div>
+              <div class="journal-entry">
+                <span>✦</span>
+                <p>Exploring system design</p>
+              </div>
+              <div class="journal-entry">
+                <span>✦</span>
+                <p>Getting acquainted with new technologies</p>
+              </div>
+            </article>
+            <article class="journal-column next-column">
+              <div class="journal-label">
+                <h3>Next</h3>
+                <i>ON THE HORIZON</i>
+              </div>
+              <div class="journal-entry">
+                <span>✦</span>
+                <p>
+                  Turning things I learn about programming, software, and others
+                  into educational content.
+                </p>
+              </div>
+              <div class="journal-entry">
+                <span>✦</span>
+                <p>
+                  Finding simpler ways to make complicated ideas/concept/rules
+                  easier to understand.
+                </p>
+              </div>
+              <div class="journal-entry">
+                <span>✦</span>
+                <p>
+                  Discovering better ways to share knowledge through writing,
+                  tutorials, or other creative formats.
+                </p>
+              </div>
+            </article>
+          </div>
+          <div class="closing-thought">
+            <span class="closing-star">✳</span>
+            <p>
+              “A collection of works, thoughts, experiments, and stories still
+              being written. Until the next page, stay curious.”
+            </p>
+            <span class="closing-rule"></span>
+          </div>
+          <footer class="site-footer">
+            <a class="footer-wordmark" href="#intro"
+              >Night Purr<span> — FULL-STACK DEVELOPER</span></a
+            ><span>DESIGNED WITH INTENTION © <span id="year">2026</span></span
+            ><a href="#top">RETURN TO TOP ↑</a>
+          </footer>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
